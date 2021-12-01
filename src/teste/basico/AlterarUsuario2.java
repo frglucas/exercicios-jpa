@@ -15,7 +15,7 @@ public class AlterarUsuario2 {
 		
 		em.getTransaction().begin();
 		
-		Usuario usuario = em.find(Usuario.class, 7L);
+		Usuario usuario = em.find(Usuario.class, 2L);
 		usuario.setNome("Leonardo Alterado");
 		
 		//em.merge(usuario);

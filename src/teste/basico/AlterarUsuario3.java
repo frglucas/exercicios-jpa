@@ -15,7 +15,7 @@ public class AlterarUsuario3 {
 		
 		em.getTransaction().begin();
 		
-		Usuario usuario = em.find(Usuario.class, 7L);
+		Usuario usuario = em.find(Usuario.class, 2L);
 		em.detach(usuario); // Tirar do modo gerenciado
 		
 		usuario.setNome("Leonardo");
